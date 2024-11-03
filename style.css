@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+}
+@media screen and (width <= 400px){
+    p{
+        text-align: center;
+    }
+
+}
+    
